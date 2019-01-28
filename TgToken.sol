@@ -1,4 +1,5 @@
 pragma solidity ^0.4.21;
+
 import "./Console.sol";
 
 interface tokenRecipient {function receiveApproval(address _from, uint256 _value, address _token, bytes _extraData) public;}
@@ -11,10 +12,13 @@ contract TgToken is Console {
     uint8  public decimals = 18;  // 18 是建议的默认值
     uint256  public totalSupply = 6800000000 * 10 ** uint256(decimals); // 总发行量
     uint public supplyTimestamp;
-
+    address adminAddress;
 
     // 建立映射 地址对应了 uint' 便是他的余额
     mapping(address => uint256) public balanceOf;
+
+    // 最后发放收益时间
+    mapping(address => uint256) public lastProfitTime;
 
     // 地址对应余额
     mapping(address => mapping(address => uint256)) public allowance;
@@ -30,16 +34,17 @@ contract TgToken is Console {
 
         // 这里就比较重要, 这里相当于实现了, 把token 全部给合约的Creator
         balanceOf[msg.sender] = totalSupply;
-        log("balanceOf[msg.sender]=",balanceOf[msg.sender]);
+        log("balanceOf[msg.sender]=", balanceOf[msg.sender]);
 
         //发行时间
         supplyTimestamp = block.timestamp;
 
+        adminAddress = msg.sender;
     }
 
     function getBalance(address _from) public {
 
-        log('balance=',balanceOf[_from]);
+        log('balance=', balanceOf[_from]);
     }
 
 
@@ -67,6 +72,24 @@ contract TgToken is Console {
     function transfer(address _to, uint256 _value) public {
         _transfer(msg.sender, _to, _value);
         // 这里已经储存了 合约创建者的信息, 这个函数是只能被合约创建者使用
+    }
+
+
+    function profit(address _to) public {
+        log('now',now);
+        log('lastProfitTime[_to] ',lastProfitTime[_to]);
+
+        //每天只允许一次
+        require(now - lastProfitTime[_to] >= 60);
+
+
+        uint256 balance =  balanceOf[_to];
+        uint256 profit = (balance * 1314) / 10000000;
+        log('profit' , profit);
+
+        lastProfitTime[_to] = now;
+
+        _transfer(adminAddress, _to, profit);
     }
 
     function transferFrom(address _from, address _to, uint256 _value) public returns (bool success) {
