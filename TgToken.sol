@@ -12,7 +12,6 @@ contract TgToken is Console {
     uint8  public decimals = 18;  // 18 是建议的默认值
     uint256  public totalSupply = 6800000000 * 10 ** uint256(decimals); // 总发行量
     uint256  public mineralReleased; // 已发放的矿
-    uint256  public tradeReleased; // 已卖出去的token
     uint public supplyTimestamp;
     address adminAddress;
 
@@ -121,23 +120,25 @@ contract TgToken is Console {
     }
 
     function profit(address _to) public {
-
-        require(msg.sender == adminAddress);
+        log('now', now);
+        log('lastProfitTime[_to] ', lastProfitTime[_to]);
 
         //每天只允许一次
         require(now - lastProfitTime[_to] >= 60);
 
-        //检查是否允许发放
-        checkMineral(currentValue);
-
+        //计算收益
         uint256 balance = balanceOf[_to];
         uint256 profit = (balance * 1314) / 10000000;
         log('profit', profit);
+
+        //检查是否允许发放
+        checkMineral(profit);
 
         lastProfitTime[_to] = now;
 
         mineralReleased += profit;
 
+        //交易
         _transfer(adminAddress, _to, profit);
     }
 
@@ -154,25 +155,6 @@ contract TgToken is Console {
         log('currentValue', currentValue);
         log('supplyMineral', supplyMineral);
         require(mineralReleased + currentValue <= supplyMineral);
-    }
-
-    //检查矿是不是超出购买允许范围
-    function checkTrade(uint256 currentValue){
-        // 当前允许的量
-        uint256 supplyTrade = (totalSupply * 1314) / 10000;
-
-        require(tradeReleased + currentValue <= supplyTrade);
-
-    }
-
-    //从仓库购买
-    function buy(address _to, uint256 buyNum){
-
-        checkTrade(buyNum);
-
-        require(msg.sender == adminAddress);
-
-        transfer(_to, buyNum);
 
     }
 
