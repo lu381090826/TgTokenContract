@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0998a3ad-657c-469b-a5bf-b17c426c1b12" name="Default" comment="trade">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TgToken.sol" beforeDir="false" afterPath="$PROJECT_DIR$/TgToken.sol" afterDir="false" />
-    </list>
+    <list default="true" id="0998a3ad-657c-469b-a5bf-b17c426c1b12" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -148,7 +145,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Solidity.Console.log">
+  <component name="RunManager" selected="Unknown.Unnamed1969578943">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -306,6 +303,28 @@
       <option name="ajre" value="1.8" />
       <module name="" />
     </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
     <configuration default="true" type="SolidityConfigurationType" factoryName="Solidity" show_console_on_std_err="false" show_console_on_std_out="false">
       <option name="VMParameters" value="" />
       <option name="alternativeJrePath" value="1.8" />
@@ -329,41 +348,6 @@
       <option name="ajre" value="1.8" />
       <module name="" />
     </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <properties />
-      <listeners />
-    </configuration>
-    <list>
-      <item itemvalue="Solidity.Unnamed" />
-      <item itemvalue="Solidity.Hello.greet" />
-      <item itemvalue="Solidity.Hello.kill" />
-      <item itemvalue="Solidity.Hello.setGreeting" />
-      <item itemvalue="Solidity.HelloWorld.update" />
-      <item itemvalue="Solidity.Console.log" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Solidity.Console.log" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -410,7 +394,7 @@
       <workItem from="1558311126359" duration="599000" />
       <workItem from="1558393195977" duration="828000" />
       <workItem from="1558479787680" duration="598000" />
-      <workItem from="1558532951782" duration="599000" />
+      <workItem from="1558532951782" duration="636000" />
     </task>
     <task id="LOCAL-00001" summary="tgtoken">
       <created>1548661323937</created>
@@ -433,15 +417,21 @@
       <option name="project" value="LOCAL" />
       <updated>1551936389552</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="trade">
+      <created>1558578778509</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1558578778509</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76513000" />
+    <option name="totallyTimeSpent" value="76550000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
