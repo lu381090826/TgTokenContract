@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0998a3ad-657c-469b-a5bf-b17c426c1b12" name="Default" comment="" />
+    <list default="true" id="0998a3ad-657c-469b-a5bf-b17c426c1b12" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/TANKE.sol" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,11 +14,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TgToken.sol" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Console.sol" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Console.sol">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="47" selection-end-line="34" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TgToken.sol" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TgToken.sol">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="138" column="14" selection-start-line="138" selection-start-column="14" selection-end-line="138" selection-end-column="14" />
+            <state relative-caret-position="285">
+              <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MoreriftToken.sol" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/MoreriftToken.sol">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="341">
+              <caret line="102" column="1" lean-forward="true" selection-start-line="102" selection-start-column="1" selection-end-line="102" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -31,7 +52,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>require</find>
       <find>balanceOf</find>
       <find>Transfer</find>
       <find>_transfer</find>
@@ -44,16 +64,29 @@
       <find>FunCoin</find>
       <find>initialSupply</find>
       <find>msg</find>
-      <find>msg.sender</find>
       <find>send</find>
       <find>_cliff</find>
       <find>block</find>
-      <find>supplyTimestamp</find>
       <find>log</find>
       <find>reload</find>
       <find>buy</find>
+      <find>adminAddress2</find>
+      <find>checkMineral</find>
+      <find>adminAddress3</find>
       <find>adminAddress</find>
+      <find>supplyTimestamp</find>
+      <find>mineralReleased</find>
+      <find>allowance</find>
+      <find>msg.sender</find>
+      <find>msg.</find>
+      <find>tokenPriceIncremental_</find>
+      <find>tokenSupply_</find>
+      <find>0xe8472F3Fc8975422f0c93b0cB17271162A125a18</find>
     </findStrings>
+    <replaceStrings>
+      <replace>adminAddress</replace>
+      <replace>0x3b5D96E0C4638947E69be905760AB7852E416288</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="UPDATE_TYPE" value="MERGE" />
@@ -70,6 +103,9 @@
         <option value="$PROJECT_DIR$/LogTest.sol" />
         <option value="$PROJECT_DIR$/Console.sol" />
         <option value="$PROJECT_DIR$/TgToken.sol" />
+        <option value="$PROJECT_DIR$/TANKE.sol" />
+        <option value="$PROJECT_DIR$/inc.sol" />
+        <option value="$PROJECT_DIR$/MoreriftToken.sol" />
       </list>
     </option>
   </component>
@@ -86,10 +122,9 @@
     <servers />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="471" />
-    <option name="y" value="13" />
-    <option name="width" value="1556" />
-    <option name="height" value="1067" />
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="835" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -98,9 +133,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -112,6 +146,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -130,6 +165,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="C:\www\tgChain" />
     </key>
   </component>
@@ -145,7 +181,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Unknown.Unnamed1969578943">
+  <component name="RunManager" selected="Solidity.Unnamed">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -303,28 +339,6 @@
       <option name="ajre" value="1.8" />
       <module name="" />
     </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <properties />
-      <listeners />
-    </configuration>
     <configuration default="true" type="SolidityConfigurationType" factoryName="Solidity" show_console_on_std_err="false" show_console_on_std_out="false">
       <option name="VMParameters" value="" />
       <option name="alternativeJrePath" value="1.8" />
@@ -348,6 +362,36 @@
       <option name="ajre" value="1.8" />
       <module name="" />
     </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <list>
+      <item itemvalue="Solidity.Unnamed" />
+      <item itemvalue="Solidity.Hello.greet" />
+      <item itemvalue="Solidity.Hello.kill" />
+      <item itemvalue="Solidity.Hello.setGreeting" />
+      <item itemvalue="Solidity.HelloWorld.update" />
+      <item itemvalue="Solidity.Console.log" />
+    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -395,6 +439,13 @@
       <workItem from="1558393195977" duration="828000" />
       <workItem from="1558479787680" duration="598000" />
       <workItem from="1558532951782" duration="636000" />
+      <workItem from="1563800881160" duration="1204000" />
+      <workItem from="1566607208373" duration="7820000" />
+      <workItem from="1567994323028" duration="1276000" />
+      <workItem from="1570875812708" duration="2666000" />
+      <workItem from="1571018332917" duration="37000" />
+      <workItem from="1573007985247" duration="1234000" />
+      <workItem from="1573570806393" duration="611000" />
     </task>
     <task id="LOCAL-00001" summary="tgtoken">
       <created>1548661323937</created>
@@ -428,10 +479,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76550000" />
+    <option name="totallyTimeSpent" value="93578000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="831" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -441,19 +493,20 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3961039" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17750533" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15665236" />
+      <window_info anchor="bottom" id="Statistic" order="8" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Messages" order="7" />
@@ -475,20 +528,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="trade" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/TgToken.sol">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1155">
-          <caret line="77" column="5" lean-forward="true" selection-end-line="114" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LogTest.sol">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="23" selection-end-line="114" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Console.sol">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -813,18 +852,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Console.sol">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+        <state relative-caret-position="240">
+          <caret line="16" column="47" selection-end-line="34" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TgTokenBak.sol">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/inc.sol">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="951">
+          <caret line="716" column="37" lean-forward="true" selection-start-line="716" selection-start-column="37" selection-end-line="716" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TANKE.sol">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="82" column="25" selection-start-line="82" selection-start-column="13" selection-end-line="82" selection-end-column="25" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TgToken.sol">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="138" column="14" selection-start-line="138" selection-start-column="14" selection-end-line="138" selection-end-column="14" />
+        <state relative-caret-position="285">
+          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MoreriftToken.sol">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="102" column="1" lean-forward="true" selection-start-line="102" selection-start-column="1" selection-end-line="102" selection-end-column="1" />
         </state>
       </provider>
     </entry>
