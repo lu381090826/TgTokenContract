@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0998a3ad-657c-469b-a5bf-b17c426c1b12" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/TANKE.sol" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoreriftToken.sol" beforeDir="false" afterPath="$PROJECT_DIR$/GlobalWomenInvestmentToken.sol" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -32,11 +32,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MoreriftToken.sol" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/MoreriftToken.sol">
+      <file leaf-file-name="GlobalWomenInvestmentToken.sol" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/GlobalWomenInvestmentToken.sol">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="102" column="1" lean-forward="true" selection-start-line="102" selection-start-column="1" selection-end-line="102" selection-end-column="1" />
+            <state relative-caret-position="1710">
+              <caret line="114" lean-forward="true" selection-start-line="114" selection-end-line="114" />
             </state>
           </provider>
         </entry>
@@ -124,7 +124,7 @@
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="835" />
+    <option name="height" value="831" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -133,8 +133,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -146,6 +144,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -445,7 +445,8 @@
       <workItem from="1570875812708" duration="2666000" />
       <workItem from="1571018332917" duration="37000" />
       <workItem from="1573007985247" duration="1234000" />
-      <workItem from="1573570806393" duration="611000" />
+      <workItem from="1573570806393" duration="1258000" />
+      <workItem from="1573775320288" duration="39000" />
     </task>
     <task id="LOCAL-00001" summary="tgtoken">
       <created>1548661323937</created>
@@ -475,11 +476,18 @@
       <option name="project" value="LOCAL" />
       <updated>1558578778509</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="trade">
+      <created>1573574692515</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1573574692516</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93578000" />
+    <option name="totallyTimeSpent" value="94264000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="831" extended-state="6" />
@@ -498,7 +506,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3961039" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15665236" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15879828" />
       <window_info anchor="bottom" id="Statistic" order="8" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -878,10 +886,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MoreriftToken.sol">
+    <entry file="file://$PROJECT_DIR$/GlobalWomenInvestmentToken.sol">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="102" column="1" lean-forward="true" selection-start-line="102" selection-start-column="1" selection-end-line="102" selection-end-column="1" />
+        <state relative-caret-position="1710">
+          <caret line="114" lean-forward="true" selection-start-line="114" selection-end-line="114" />
         </state>
       </provider>
     </entry>
